@@ -1,52 +1,50 @@
-[20:32:40] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[20:32:40] [ServerMain/WARN]: Failed to read pack file/VanillaTweaks_c813282_MC1.21-1.21.4.zip metadata
-com.google.gson.JsonParseException: Overlay "overlay_57" declares support for version newer than 81, but is missing mandatory fields min_format and max_format
-	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287)
-	at net.minecraft.server.packs.resources.ResourceMetadata$2.getSection(ResourceMetadata.java:40)
-	at net.minecraft.server.packs.AbstractPackResources.getMetadataSection(AbstractPackResources.java:26)
-	at net.minecraft.server.packs.repository.Pack.readPackMetadata(Pack.java:72)
-	at net.minecraft.server.packs.repository.Pack.readMetaAndCreate(Pack.java:41)
-	at net.minecraft.server.packs.repository.FolderRepositorySource.lambda$loadPacks$0(FolderRepositorySource.java:63)
-	at net.minecraft.server.packs.repository.FolderRepositorySource.discoverPacks(FolderRepositorySource.java:94)
-	at net.minecraft.server.packs.repository.FolderRepositorySource.loadPacks(FolderRepositorySource.java:59)
-	at net.minecraft.server.packs.repository.PackRepository.discoverAvailable(PackRepository.java:43)
-	at net.minecraft.server.packs.repository.PackRepository.reload(PackRepository.java:36)
-	at net.minecraft.server.MinecraftServer.configurePackRepository(MinecraftServer.java:1583)
-	at net.minecraft.server.WorldLoader$PackConfig.createResourceManager(WorldLoader.java:87)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789)
-	at net.minecraft.util.Util.blockUntilDone(Util.java:1156)
-	at net.minecraft.util.Util.blockUntilDone(Util.java:1144)
-	at net.minecraft.server.Main.main(Main.java:177)
-	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-[20:32:40] [ServerMain/WARN]: Missing metadata in pack file/VanillaTweaks_d113758_UNZIP_ME.zip
-[20:32:42] [ServerMain/INFO]: Loaded 1585 recipes
-[20:32:42] [ServerMain/INFO]: Loaded 1688 advancements
-[20:32:42] [Server thread/INFO]: Starting minecraft server version 26.2
-[20:32:42] [Server thread/INFO]: Loading properties
-[20:32:42] [Server thread/INFO]: Default game type: SURVIVAL
-[20:32:42] [Server thread/INFO]: Generating keypair
-[20:32:42] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:32:42] [Server thread/INFO]: Preparing level "world"
-[20:32:42] [Server thread/INFO]: Loading 0 persistent chunks...
-[20:32:42] [Server thread/INFO]: Preparing spawn area: 100%
-[20:32:42] [Server thread/INFO]: Time elapsed: 14 ms
-[20:32:42] [Server thread/INFO]: Done (0.336s)! For help, type "help"
-[20:32:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[drugari drugari blejacemo stalno]'/minecraft:overworld
-[20:32:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[drugari drugari blejacemo stalno]'/minecraft:the_nether
-[20:32:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[drugari drugari blejacemo stalno]'/minecraft:the_end
-[20:32:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:32:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:32:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:32:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[20:33:42] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[20:34:05] [User Authenticator #1/INFO]: UUID of player xXxNerdSlayerxXx is 4ccfc04e-e9ae-4cf5-862a-925b985aad1b
-[20:34:06] [Server thread/INFO]: xXxNerdSlayerxXx[/10.73.13.88:56948] logged in with entity id 85 at (9.081292496508967, 72.0, 7.857562720030602)
-[20:34:06] [Server thread/INFO]: xXxNerdSlayerxXx joined the game
-[20:35:45] [User Authenticator #2/INFO]: UUID of player Snjegovan is dd1ac9e9-1bc5-4f25-acc8-fe0a884516c8
-[20:35:46] [Server thread/INFO]: Snjegovan[/10.73.13.5:61919] logged in with entity id 363 at (-7.5, 74.0, 7.5)
-[20:35:46] [Server thread/INFO]: Snjegovan joined the game
-[20:37:08] [Server thread/INFO]: xXxNerdSlayerxXx lost connection: Disconnected
-[20:37:08] [Server thread/INFO]: xXxNerdSlayerxXx left the game
-[20:37:09] [Server thread/INFO]: Snjegovan lost connection: Disconnected
-[20:37:09] [Server thread/INFO]: Snjegovan left the game
+[14:13:26] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[14:13:26] [Worker-Main-12/WARN]: Found loot table element validation problem in {minecraft:entities/shulker@minecraft:loot_table}.pools[2].entries[0]: Missing element double_shulker_shells:entities/shulker of type minecraft:loot_table
+[14:13:26] [Worker-Main-12/WARN]: Found loot table element validation problem in {minecraft:entities/bat@minecraft:loot_table}.pools[2].entries[0]: Missing element bat_membranes:entities/bat of type minecraft:loot_table
+[14:13:26] [Worker-Main-12/WARN]: Found loot table element validation problem in {minecraft:entities/husk@minecraft:loot_table}.pools[2].entries[0]: Missing element husks_drop_sand:entities/husk of type minecraft:loot_table
+[14:13:26] [Worker-Main-12/WARN]: Found loot table element validation problem in {minecraft:entities/player@minecraft:loot_table}.pools[1].entries[0]: Missing element graves:entities/player of type minecraft:loot_table
+[14:13:26] [Worker-Main-12/WARN]: Found loot table element validation problem in {minecraft:entities/villager@minecraft:loot_table}.pools[2].entries[0]: Missing element villager_death:entities/villager of type minecraft:loot_table
+[14:13:27] [ServerMain/INFO]: Loaded 1910 recipes
+[14:13:27] [ServerMain/INFO]: Loaded 1925 advancements
+[14:13:27] [Server thread/INFO]: Starting minecraft server version 26.2
+[14:13:27] [Server thread/INFO]: Loading properties
+[14:13:27] [Server thread/INFO]: Default game type: SURVIVAL
+[14:13:27] [Server thread/INFO]: Generating keypair
+[14:13:27] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:13:27] [Server thread/INFO]: Preparing level "world"
+[14:13:27] [Server thread/INFO]: Loading 0 persistent chunks...
+[14:13:27] [Server thread/INFO]: Preparing spawn area: 100%
+[14:13:27] [Server thread/INFO]: Time elapsed: 20 ms
+[14:13:27] [Server thread/INFO]: Done (0.243s)! For help, type "help"
+[14:13:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[drugari drugari blejacemo stalno]'/minecraft:overworld
+[14:13:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[drugari drugari blejacemo stalno]'/minecraft:the_end
+[14:13:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[drugari drugari blejacemo stalno]'/minecraft:the_nether
+[14:13:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:13:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:13:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:13:27] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:13:47] [User Authenticator #1/INFO]: UUID of player xXxNerdSlayerxXx is 4ccfc04e-e9ae-4cf5-862a-925b985aad1b
+[14:13:48] [Server thread/INFO]: xXxNerdSlayerxXx[/10.73.13.88:52657] logged in with entity id 64 at (97.83920030331362, 64.0, -884.7624999880791)
+[14:13:48] [Server thread/INFO]: xXxNerdSlayerxXx joined the game
+[14:14:18] [User Authenticator #2/INFO]: UUID of player Snjegovan is dd1ac9e9-1bc5-4f25-acc8-fe0a884516c8
+[14:14:19] [Server thread/INFO]: Snjegovan[/10.73.13.5:56555] logged in with entity id 238 at (97.67948695655421, 64.0, -880.6999999880791)
+[14:14:19] [Server thread/INFO]: Snjegovan joined the game
+[14:14:24] [Server thread/WARN]: Failed to update secure chat state for Snjegovan: 'Chat disabled due to missing profile public key. Please try reconnecting.'
+[14:14:24] [Server thread/INFO]: <Snjegovan> :|
+[14:14:26] [Server thread/INFO]: xXxNerdSlayerxXx lost connection: Disconnected
+[14:14:26] [Server thread/INFO]: xXxNerdSlayerxXx left the game
+[14:14:40] [Server thread/INFO]: Snjegovan lost connection: Disconnected
+[14:14:40] [Server thread/INFO]: Snjegovan left the game
+[14:14:43] [Server thread/INFO]: Unknown or incomplete command. See below for error
+[14:14:43] [Server thread/INFO]: stopstop<--[HERE]
+[14:14:46] [Server thread/INFO]: Stopping the server
+[14:14:46] [Server thread/INFO]: Stopping server
+[14:14:46] [Server thread/INFO]: Saving players
+[14:14:46] [Server thread/INFO]: Saving worlds
+[14:14:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[drugari drugari blejacemo stalno]'/minecraft:overworld
+[14:14:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[drugari drugari blejacemo stalno]'/minecraft:the_end
+[14:14:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[drugari drugari blejacemo stalno]'/minecraft:the_nether
+[14:14:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:14:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:14:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:14:46] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
