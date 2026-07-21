@@ -2507,39 +2507,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2026-07-20 19:36:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2026-07-20 20:04:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2026-07-20 20:04:07 +0200"
+    },
+    "done": true
+  },
   "universal_dyeing:recipes/building_blocks/universal_dyeing/candle": {
     "criteria": {
       "has_dye": "2026-07-20 20:04:12 +0200"
     },
     "done": false
   },
-  "minecraft:recipes/combat/dye_light_gray_harness": {
-    "criteria": {
-      "has_needed_dye": "2026-07-20 20:04:53 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/cyan_dye": {
     "criteria": {
       "has_blue_dye": "2026-07-20 20:04:12 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dye_light_gray_bed": {
-    "criteria": {
-      "has_needed_dye": "2026-07-20 20:04:53 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/white_bundle": {
-    "criteria": {
-      "has_white_dye": "2026-07-20 20:05:14 +0200"
-    },
-    "done": true
-  },
-  "minecraft:nether/brew_potion": {
-    "criteria": {
-      "potion": "2026-07-20 20:45:24 +0200"
     },
     "done": true
   },
@@ -2555,51 +2549,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/white_dye": {
-    "criteria": {
-      "has_the_recipe": "2026-07-20 20:05:11 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/bowl": {
-    "criteria": {
-      "has_brown_mushroom": "2026-07-20 20:41:38 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/light_gray_bundle": {
-    "criteria": {
-      "has_light_gray_dye": "2026-07-20 20:04:53 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dye_white_carpet": {
-    "criteria": {
-      "has_needed_dye": "2026-07-20 20:05:14 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
     "criteria": {
       "has_blue_dye": "2026-07-20 20:04:12 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/yellow_candle": {
-    "criteria": {
-      "has_yellow_dye": "2026-07-20 20:38:54 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_gray_stained_glass_pane_from_glass_pane": {
-    "criteria": {
-      "has_light_gray_dye": "2026-07-20 20:04:53 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_blue_bed": {
-    "criteria": {
-      "has_light_blue_wool": "2026-07-20 20:11:59 +0200"
     },
     "done": true
   },
@@ -2609,51 +2561,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/white_candle": {
-    "criteria": {
-      "has_white_dye": "2026-07-20 20:05:14 +0200"
-    },
-    "done": true
-  },
-  "minecraft:adventure/voluntary_exile": {
-    "criteria": {
-      "voluntary_exile": "2026-07-20 20:07:22 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_yellow_wool": {
-    "criteria": {
-      "has_needed_dye": "2026-07-20 20:38:54 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
-    "criteria": {
-      "has_dandelion": "2026-07-20 20:38:47 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/yellow_bundle": {
-    "criteria": {
-      "has_yellow_dye": "2026-07-20 20:38:54 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/dye_blue_bed": {
     "criteria": {
       "has_needed_dye": "2026-07-20 20:04:12 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/dye_yellow_harness": {
-    "criteria": {
-      "has_needed_dye": "2026-07-20 20:38:54 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_blue_banner": {
-    "criteria": {
-      "has_light_blue_wool": "2026-07-20 20:11:59 +0200"
     },
     "done": true
   },
@@ -2663,13 +2573,61 @@
     },
     "done": false
   },
-  "minecraft:recipes/decorations/light_blue_stained_glass_pane_from_glass_pane": {
+  "universal_dyeing:recipes/building_blocks/universal_dyeing/stained_glass": {
     "criteria": {
-      "has_light_blue_dye": "2026-07-20 20:10:55 +0200"
+      "has_dye": "2026-07-20 20:04:12 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/combat/dye_blue_harness": {
+    "criteria": {
+      "has_needed_dye": "2026-07-20 20:04:12 +0200"
     },
     "done": true
   },
-  "universal_dyeing:recipes/building_blocks/universal_dyeing/stained_glass": {
+  "minecraft:recipes/decorations/dye_blue_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-07-20 20:04:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_blue_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-07-20 20:04:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
+    "criteria": {
+      "has_blue_dye": "2026-07-20 20:04:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/purple_dye": {
+    "criteria": {
+      "has_blue_dye": "2026-07-20 20:04:12 +0200"
+    },
+    "done": true
+  },
+  "universal_dyeing:recipes/building_blocks/universal_dyeing/terracotta": {
+    "criteria": {
+      "has_dye": "2026-07-20 20:04:12 +0200"
+    },
+    "done": false
+  },
+  "universal_dyeing:recipes/building_blocks/universal_dyeing/glazed_terracotta": {
+    "criteria": {
+      "has_dye": "2026-07-20 20:04:12 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
+    "criteria": {
+      "has_blue_dye": "2026-07-20 20:04:12 +0200"
+    },
+    "done": true
+  },
+  "universal_dyeing:recipes/building_blocks/universal_dyeing/concrete_powder": {
     "criteria": {
       "has_dye": "2026-07-20 20:04:12 +0200"
     },
@@ -2681,21 +2639,9 @@
     },
     "done": true
   },
-  "mini_blocks:recipes/loom": {
+  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
     "criteria": {
-      "has_item": "2026-07-20 20:09:22 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dye_light_blue_carpet": {
-    "criteria": {
-      "has_needed_dye": "2026-07-20 20:10:55 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/dye_light_blue_harness": {
-    "criteria": {
-      "has_needed_dye": "2026-07-20 20:10:55 +0200"
+      "has_azure_bluet": "2026-07-20 20:04:42 +0200"
     },
     "done": true
   },
@@ -2705,87 +2651,39 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/white_stained_glass_pane_from_glass_pane": {
-    "criteria": {
-      "has_white_dye": "2026-07-20 20:05:14 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/dye_blue_harness": {
-    "criteria": {
-      "has_needed_dye": "2026-07-20 20:04:12 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dye_yellow_bed": {
-    "criteria": {
-      "has_needed_dye": "2026-07-20 20:38:54 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/suspicious_stew_from_dandelion": {
-    "criteria": {
-      "has_dandelion": "2026-07-20 20:38:47 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/flower_banner_pattern": {
     "criteria": {
       "has_oxeye_daisy": "2026-07-20 20:04:43 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/dye_blue_carpet": {
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
     "criteria": {
-      "has_needed_dye": "2026-07-20 20:04:12 +0200"
+      "has_oxeye_daisy": "2026-07-20 20:04:43 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/misc/lime_dye": {
+  "minecraft:recipes/combat/dye_light_gray_harness": {
     "criteria": {
-      "has_white_dye": "2026-07-20 20:05:14 +0200"
+      "has_needed_dye": "2026-07-20 20:04:53 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_blue_wool": {
+  "minecraft:recipes/decorations/dye_light_gray_bed": {
     "criteria": {
-      "has_needed_dye": "2026-07-20 20:04:12 +0200"
+      "has_needed_dye": "2026-07-20 20:04:53 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
+  "minecraft:recipes/tools/light_gray_bundle": {
     "criteria": {
-      "has_azure_bluet": "2026-07-20 20:04:42 +0200"
+      "has_light_gray_dye": "2026-07-20 20:04:53 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
+  "minecraft:recipes/decorations/light_gray_stained_glass_pane_from_glass_pane": {
     "criteria": {
-      "has_blue_dye": "2026-07-20 20:04:12 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/dye_white_harness": {
-    "criteria": {
-      "has_needed_dye": "2026-07-20 20:05:14 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dye_light_blue_bed": {
-    "criteria": {
-      "has_needed_dye": "2026-07-20 20:10:55 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dye_yellow_carpet": {
-    "criteria": {
-      "has_needed_dye": "2026-07-20 20:38:54 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_light_blue_wool": {
-    "criteria": {
-      "has_needed_dye": "2026-07-20 20:10:55 +0200"
+      "has_light_gray_dye": "2026-07-20 20:04:53 +0200"
     },
     "done": true
   },
@@ -2794,36 +2692,6 @@
       "has_needed_dye": "2026-07-20 20:04:53 +0200"
     },
     "done": true
-  },
-  "minecraft:recipes/misc/purple_dye": {
-    "criteria": {
-      "has_blue_dye": "2026-07-20 20:04:12 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/black_dye": {
-    "criteria": {
-      "has_ink_sac": "2026-07-20 20:45:12 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/light_gray_dye_from_gray_white_dye": {
-    "criteria": {
-      "has_white_dye": "2026-07-20 20:05:14 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/orange_dye_from_red_yellow": {
-    "criteria": {
-      "has_yellow_dye": "2026-07-20 20:38:54 +0200"
-    },
-    "done": true
-  },
-  "universal_dyeing:recipes/building_blocks/universal_dyeing/terracotta": {
-    "criteria": {
-      "has_dye": "2026-07-20 20:04:12 +0200"
-    },
-    "done": false
   },
   "minecraft:recipes/decorations/dye_light_gray_carpet": {
     "criteria": {
@@ -2837,15 +2705,51 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/suspicious_stew_from_cornflower": {
+  "minecraft:recipes/misc/white_dye": {
     "criteria": {
-      "has_cornflower": "2026-07-20 20:04:07 +0200"
+      "has_the_recipe": "2026-07-20 20:05:11 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/yellow_stained_glass_pane_from_glass_pane": {
+  "minecraft:recipes/tools/white_bundle": {
     "criteria": {
-      "has_yellow_dye": "2026-07-20 20:38:54 +0200"
+      "has_white_dye": "2026-07-20 20:05:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_white_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-07-20 20:05:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_candle": {
+    "criteria": {
+      "has_white_dye": "2026-07-20 20:05:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_white_dye": "2026-07-20 20:05:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye": {
+    "criteria": {
+      "has_white_dye": "2026-07-20 20:05:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_white_harness": {
+    "criteria": {
+      "has_needed_dye": "2026-07-20 20:05:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_gray_white_dye": {
+    "criteria": {
+      "has_white_dye": "2026-07-20 20:05:14 +0200"
     },
     "done": true
   },
@@ -2867,39 +2771,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/blue_dye_from_cornflower": {
-    "criteria": {
-      "has_cornflower": "2026-07-20 20:04:07 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_blue_carpet": {
-    "criteria": {
-      "has_light_blue_wool": "2026-07-20 20:11:59 +0200"
-    },
-    "done": true
-  },
-  "universal_dyeing:recipes/building_blocks/universal_dyeing/glazed_terracotta": {
-    "criteria": {
-      "has_dye": "2026-07-20 20:04:12 +0200"
-    },
-    "done": false
-  },
   "minecraft:recipes/misc/gray_dye": {
     "criteria": {
       "has_white_dye": "2026-07-20 20:05:14 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/grindstone": {
-    "criteria": {
-      "has_stone_slab": "2026-07-20 19:36:55 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
-    "criteria": {
-      "has_oxeye_daisy": "2026-07-20 20:04:43 +0200"
     },
     "done": true
   },
@@ -2909,23 +2783,53 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/mushroom_stew": {
+  "minecraft:recipes/building_blocks/bone_block": {
     "criteria": {
-      "has_brown_mushroom": "2026-07-20 20:41:38 +0200"
+      "has_bone_meal": "2026-07-20 20:05:20 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
+  "minecraft:adventure/voluntary_exile": {
     "criteria": {
-      "has_blue_dye": "2026-07-20 20:04:12 +0200"
+      "voluntary_exile": "2026-07-20 20:07:22 +0200"
     },
     "done": true
   },
-  "universal_dyeing:recipes/building_blocks/universal_dyeing/concrete_powder": {
+  "mini_blocks:recipes/loom": {
     "criteria": {
-      "has_dye": "2026-07-20 20:04:12 +0200"
+      "has_item": "2026-07-20 20:09:22 +0200"
     },
-    "done": false
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_light_blue_dye": "2026-07-20 20:10:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_light_blue_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-07-20 20:10:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_light_blue_harness": {
+    "criteria": {
+      "has_needed_dye": "2026-07-20 20:10:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_light_blue_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-07-20 20:10:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_light_blue_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-07-20 20:10:55 +0200"
+    },
+    "done": true
   },
   "minecraft:recipes/decorations/light_blue_candle": {
     "criteria": {
@@ -2939,9 +2843,117 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/bone_block": {
+  "minecraft:recipes/decorations/light_blue_bed": {
     "criteria": {
-      "has_bone_meal": "2026-07-20 20:05:20 +0200"
+      "has_light_blue_wool": "2026-07-20 20:11:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_banner": {
+    "criteria": {
+      "has_light_blue_wool": "2026-07-20 20:11:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_carpet": {
+    "criteria": {
+      "has_light_blue_wool": "2026-07-20 20:11:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2026-07-20 20:38:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2026-07-20 20:38:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_candle": {
+    "criteria": {
+      "has_yellow_dye": "2026-07-20 20:38:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_yellow_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-07-20 20:38:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/yellow_bundle": {
+    "criteria": {
+      "has_yellow_dye": "2026-07-20 20:38:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_yellow_harness": {
+    "criteria": {
+      "has_needed_dye": "2026-07-20 20:38:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_yellow_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-07-20 20:38:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_yellow_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-07-20 20:38:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_red_yellow": {
+    "criteria": {
+      "has_yellow_dye": "2026-07-20 20:38:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_yellow_dye": "2026-07-20 20:38:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_brown_mushroom": "2026-07-20 20:41:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_brown_mushroom": "2026-07-20 20:41:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2026-07-20 20:45:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2026-07-20 20:45:24 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2026-07-21 10:59:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/cure_zombie_villager": {
+    "criteria": {
+      "cured_zombie": "2026-07-21 10:58:50 +0200"
     },
     "done": true
   },
