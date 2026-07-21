@@ -1,0 +1,137 @@
+{
+  "vanillatweaks:root": {
+    "criteria": {
+      "tick": "2026-07-21 13:58:18 +0200"
+    },
+    "done": true
+  },
+  "vanillatweaks:wandering_trades": {
+    "criteria": {
+      "tick": "2026-07-21 13:58:18 +0200"
+    },
+    "done": true
+  },
+  "vanillatweaks:fast_leaf_decay": {
+    "criteria": {
+      "tick": "2026-07-21 13:58:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-07-21 13:58:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2026-07-21 14:02:13 +0200"
+    },
+    "done": true
+  },
+  "vanillatweaks:storm_channeling": {
+    "criteria": {
+      "tick": "2026-07-21 13:58:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2026-07-21 14:02:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2026-07-21 14:02:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2026-07-21 14:02:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2026-07-21 14:02:13 +0200"
+    },
+    "done": true
+  },
+  "vanillatweaks:mini_blocks": {
+    "criteria": {
+      "tick": "2026-07-21 13:58:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2026-07-21 14:02:13 +0200"
+    },
+    "done": true
+  },
+  "vanillatweaks:player_head_drops": {
+    "criteria": {
+      "tick": "2026-07-21 13:58:18 +0200"
+    },
+    "done": true
+  },
+  "vanillatweaks:afk_display": {
+    "criteria": {
+      "tick": "2026-07-21 13:58:18 +0200"
+    },
+    "done": true
+  },
+  "vanillatweaks:ender_chest_always_drops": {
+    "criteria": {
+      "tick": "2026-07-21 13:58:18 +0200"
+    },
+    "done": true
+  },
+  "vanillatweaks:silence_mobs": {
+    "criteria": {
+      "tick": "2026-07-21 13:58:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2026-07-21 14:02:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/pale_oak_boat": {
+    "criteria": {
+      "in_water": "2026-07-21 14:02:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2026-07-21 13:58:19 +0200",
+      "minecraft:river": "2026-07-21 14:02:13 +0200",
+      "minecraft:plains": "2026-07-21 14:01:48 +0200"
+    },
+    "done": false
+  },
+  "vanillatweaks:more_mob_heads": {
+    "criteria": {
+      "tick": "2026-07-21 13:58:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2026-07-21 14:02:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2026-07-21 14:02:13 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 4903
+}

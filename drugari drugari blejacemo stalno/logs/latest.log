@@ -1,53 +1,36 @@
-[10:14:15] [ServerMain/WARN]: resource-pack-id missing, using default of 7488ef7a-7ec7-30d1-be4d-a2bd198c472b
-[10:14:15] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[10:14:16] [Worker-Main-2/WARN]: Found loot table element validation problem in {minecraft:entities/shulker@minecraft:loot_table}.pools[2].entries[0]: Missing element double_shulker_shells:entities/shulker of type minecraft:loot_table
-[10:14:16] [Worker-Main-2/WARN]: Found loot table element validation problem in {minecraft:entities/bat@minecraft:loot_table}.pools[2].entries[0]: Missing element bat_membranes:entities/bat of type minecraft:loot_table
-[10:14:16] [Worker-Main-2/WARN]: Found loot table element validation problem in {minecraft:entities/husk@minecraft:loot_table}.pools[2].entries[0]: Missing element husks_drop_sand:entities/husk of type minecraft:loot_table
-[10:14:16] [Worker-Main-2/WARN]: Found loot table element validation problem in {minecraft:entities/player@minecraft:loot_table}.pools[1].entries[0]: Missing element graves:entities/player of type minecraft:loot_table
-[10:14:16] [Worker-Main-2/WARN]: Found loot table element validation problem in {minecraft:entities/villager@minecraft:loot_table}.pools[2].entries[0]: Missing element villager_death:entities/villager of type minecraft:loot_table
-[10:14:17] [ServerMain/INFO]: Loaded 1910 recipes
-[10:14:17] [ServerMain/INFO]: Loaded 1925 advancements
-[10:14:17] [Server thread/INFO]: Starting minecraft server version 26.2
-[10:14:17] [Server thread/INFO]: Loading properties
-[10:14:17] [Server thread/INFO]: Default game type: SURVIVAL
-[10:14:17] [Server thread/INFO]: Generating keypair
-[10:14:17] [Server thread/INFO]: Starting Minecraft server on *:25565
-[10:14:17] [Server thread/INFO]: Preparing level "world"
-[10:14:18] [Server thread/INFO]: Loading 0 persistent chunks...
-[10:14:18] [Server thread/INFO]: Preparing spawn area: 100%
-[10:14:18] [Server thread/INFO]: Time elapsed: 29 ms
-[10:14:18] [Server thread/INFO]: Done (0.338s)! For help, type "help"
-[10:14:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[drugari drugari blejacemo stalno]'/minecraft:overworld
-[10:14:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[drugari drugari blejacemo stalno]'/minecraft:the_nether
-[10:14:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[drugari drugari blejacemo stalno]'/minecraft:the_end
-[10:14:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[10:14:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[10:14:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[10:14:18] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[10:15:18] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[10:15:50] [User Authenticator #1/INFO]: UUID of player Snjegovan is dd1ac9e9-1bc5-4f25-acc8-fe0a884516c8
-[10:15:55] [Server thread/INFO]: Snjegovan[/10.73.13.5:55709] logged in with entity id 23 at (98.17956978864164, 63.0, -971.0462577532608)
-[10:15:55] [Server thread/INFO]: Snjegovan joined the game
-[10:16:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2378ms or 47 ticks behind
-[10:16:46] [Server thread/INFO]: [Snjegovan: Summoned new Armorer]
-[10:17:45] [Server thread/INFO]: Villager Villager['Armorer'/331, l='ServerLevel[drugari drugari blejacemo stalno]', x=13.54, y=62.71, z=-1002.31] died, message: 'Armorer was slain by Snjegovan'
-[10:19:53] [Server thread/INFO]: [Snjegovan: Summoned new Armorer]
-[10:20:34] [Server thread/INFO]: Villager Villager['Armorer'/1163, l='ServerLevel[drugari drugari blejacemo stalno]', x=15.11, y=62.71, z=-1002.31] died, message: 'Armorer was slain by Snjegovan'
-[10:23:06] [Server thread/INFO]: [Snjegovan: Summoned new Armorer]
-[10:24:47] [Server thread/INFO]: [Snjegovan: Set own game mode to Creative Mode]
-[10:27:05] [Server thread/INFO]: Snjegovan lost connection: Disconnected
-[10:27:05] [Server thread/INFO]: Snjegovan left the game
-[10:28:05] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[10:28:18] [User Authenticator #2/INFO]: UUID of player Snjegovan is dd1ac9e9-1bc5-4f25-acc8-fe0a884516c8
-[10:28:19] [Server thread/INFO]: Snjegovan[/10.73.13.5:55836] logged in with entity id 2887 at (102.07406496489224, 64.0, -984.1975327675704)
-[10:28:19] [Server thread/INFO]: Snjegovan joined the game
-[10:29:21] [Server thread/INFO]: [Snjegovan: Summoned new Librarian]
-[10:31:22] [Server thread/INFO]: [Snjegovan: Set own game mode to Survival Mode]
-[10:31:43] [Server thread/INFO]: [Snjegovan: Set own game mode to Creative Mode]
-[10:40:46] [Server thread/INFO]: [Snjegovan: Set own game mode to Survival Mode]
-[10:42:54] [Server thread/INFO]: [Snjegovan: The difficulty has been set to Hard]
-[10:53:43] [Server thread/INFO]: Villager Villager['Armorer'/2814, l='ServerLevel[drugari drugari blejacemo stalno]', x=103.74, y=62.00, z=-985.70] died, message: 'Armorer was slain by Zombie'
-[10:58:50] [Server thread/INFO]: Snjegovan has reached the goal [Zombie Doctor]
-[10:59:09] [Server thread/INFO]: Snjegovan has made the advancement [Cover Me with Diamonds]
-[10:59:53] [Server thread/INFO]: Snjegovan lost connection: Disconnected
-[10:59:53] [Server thread/INFO]: Snjegovan left the game
+[00:05:06] [Server thread/INFO]: <xXxNerdSlayerxXx> jupi imam prvi stek
+[00:05:30] [Server thread/INFO]: [Not Secure] <Snjegovan> jeeej
+[00:05:58] [Server thread/INFO]: <xXxNerdSlayerxXx> jesi li ti sakupio ista
+[00:06:04] [Server thread/INFO]: [Not Secure] <Snjegovan> nista lol
+[00:06:11] [Server thread/INFO]: [Not Secure] <Snjegovan> nema paukova bre
+[00:06:57] [Server thread/INFO]: [Not Secure] <Snjegovan> evo imam 1
+[00:07:10] [Server thread/INFO]: [Not Secure] <Snjegovan> 2
+[00:10:49] [Server thread/INFO]: <xXxNerdSlayerxXx> imas li zastavu
+[00:10:55] [Server thread/INFO]: [Not Secure] <Snjegovan> javicu ti ja
+[00:11:19] [Server thread/INFO]: Named entity Zombie['Zombie'/151, l='ServerLevel[drugari drugari blejacemo stalno]', x=103.10, y=63.68, z=-983.05] died: Zombie suffocated in a wall
+[00:11:27] [Server thread/INFO]: Villager Villager['Librarian'/18479, l='ServerLevel[drugari drugari blejacemo stalno]', x=103.70, y=64.00, z=-982.04] died, message: 'Librarian suffocated in a wall'
+[00:12:37] [Server thread/INFO]: <xXxNerdSlayerxXx> odoh jesti
+[00:12:44] [Server thread/INFO]: <xXxNerdSlayerxXx> uzmi to
+[00:13:14] [Server thread/INFO]: <xXxNerdSlayerxXx> tamo iza moje kuce imas armadilo farmu
+[00:13:27] [Server thread/INFO]: <xXxNerdSlayerxXx> odi jednom na 10ak minuta i nahrani ih sve
+[00:17:18] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=110, y=65, z=-1010} BlockPos{x=111, y=64, z=-1012}
+[00:17:18] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=110, y=65, z=-1010} BlockPos{x=111, y=64, z=-1012}
+[00:18:42] [Server thread/INFO]: Snjegovan has made the advancement [The Parrots and the Bats]
+[00:22:11] [Server thread/INFO]: <xXxNerdSlayerxXx> ako se budes izlogovao vrati oci u moj kovceg
+[00:42:13] [Server thread/INFO]: [Not Secure] <Snjegovan> oci i armadilo scute sam stavio u tvoj cest direktno iza tebe u kuci
+[00:42:16] [Server thread/INFO]: [Not Secure] <Snjegovan> odoh
+[00:46:09] [Server thread/INFO]: Snjegovan lost connection: Disconnected
+[00:46:09] [Server thread/INFO]: Snjegovan left the game
+[01:00:12] [Server thread/INFO]: xXxNerdSlayerxXx lost connection: Disconnected
+[01:00:12] [Server thread/INFO]: xXxNerdSlayerxXx left the game
+[01:00:47] [Server thread/INFO]: Stopping the server
+[01:00:47] [Server thread/INFO]: Stopping server
+[01:00:47] [Server thread/INFO]: Saving players
+[01:00:47] [Server thread/INFO]: Saving worlds
+[01:00:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[drugari drugari blejacemo stalno]'/minecraft:overworld
+[01:00:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[drugari drugari blejacemo stalno]'/minecraft:the_nether
+[01:00:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[drugari drugari blejacemo stalno]'/minecraft:the_end
+[01:00:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:00:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:00:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:00:47] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
