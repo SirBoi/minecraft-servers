@@ -1,36 +1,29 @@
-[15:44:42] [ServerMain/WARN]: resource-pack-id missing, using default of 7488ef7a-7ec7-30d1-be4d-a2bd198c472b
-[15:44:42] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[15:44:45] [Worker-Main-4/WARN]: Found loot table element validation problem in {minecraft:entities/shulker@minecraft:loot_table}.pools[2].entries[0]: Missing element double_shulker_shells:entities/shulker of type minecraft:loot_table
-[15:44:45] [Worker-Main-4/WARN]: Found loot table element validation problem in {minecraft:entities/bat@minecraft:loot_table}.pools[2].entries[0]: Missing element bat_membranes:entities/bat of type minecraft:loot_table
-[15:44:45] [Worker-Main-4/WARN]: Found loot table element validation problem in {minecraft:entities/husk@minecraft:loot_table}.pools[2].entries[0]: Missing element husks_drop_sand:entities/husk of type minecraft:loot_table
-[15:44:45] [Worker-Main-4/WARN]: Found loot table element validation problem in {minecraft:entities/player@minecraft:loot_table}.pools[1].entries[0]: Missing element graves:entities/player of type minecraft:loot_table
-[15:44:45] [Worker-Main-4/WARN]: Found loot table element validation problem in {minecraft:entities/villager@minecraft:loot_table}.pools[2].entries[0]: Missing element villager_death:entities/villager of type minecraft:loot_table
-[15:44:47] [ServerMain/INFO]: Loaded 1910 recipes
-[15:44:47] [ServerMain/INFO]: Loaded 1925 advancements
-[15:44:47] [Server thread/INFO]: Starting minecraft server version 26.2
-[15:44:47] [Server thread/INFO]: Loading properties
-[15:44:47] [Server thread/INFO]: Default game type: SURVIVAL
-[15:44:47] [Server thread/INFO]: Generating keypair
-[15:44:47] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:44:48] [Server thread/INFO]: Preparing level "world"
-[15:44:48] [Server thread/INFO]: Loading 0 persistent chunks...
-[15:44:48] [Server thread/INFO]: Preparing spawn area: 100%
-[15:44:48] [Server thread/INFO]: Time elapsed: 67 ms
-[15:44:48] [Server thread/INFO]: Done (0.618s)! For help, type "help"
-[15:44:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[drugari drugari blejacemo stalno]'/minecraft:overworld
-[15:44:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[drugari drugari blejacemo stalno]'/minecraft:the_end
-[15:44:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[drugari drugari blejacemo stalno]'/minecraft:the_nether
-[15:44:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[15:44:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:44:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:44:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[15:45:31] [User Authenticator #1/INFO]: UUID of player Snjegovan is dd1ac9e9-1bc5-4f25-acc8-fe0a884516c8
-[15:45:33] [Server thread/INFO]: Snjegovan[/10.73.13.5:61163] logged in with entity id 102 at (97.7343116284517, 64.0, -991.8619679127289)
-[15:45:33] [Server thread/INFO]: Snjegovan joined the game
-[15:45:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2100ms or 42 ticks behind
-[15:46:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7616ms or 152 ticks behind
-[16:56:25] [Server thread/INFO]: Snjegovan lost connection: Disconnected
-[16:56:25] [Server thread/INFO]: Snjegovan left the game
-[16:56:41] [Server thread/INFO]: Stopping server
-[16:56:41] [Server thread/INFO]: Saving players
-[16:56:41] [Server thread/INFO]: Saving worlds
+[00:09:59] [Server thread/INFO]: [Not Secure] [Server] mozemo li ubtii zmaja za 15 minuta
+[00:17:27] [User Authenticator #4/INFO]: UUID of player xXxNerdSlayerxXx is 4ccfc04e-e9ae-4cf5-862a-925b985aad1b
+[00:17:29] [Server thread/INFO]: xXxNerdSlayerxXx[/10.73.13.88:55298] logged in with entity id 166084 at (98.8404965654486, 64.0, -884.0244681460755)
+[00:17:29] [Server thread/INFO]: xXxNerdSlayerxXx joined the game
+[00:19:14] [Server thread/INFO]: <xXxNerdSlayerxXx> fristajlujes li?
+[00:19:31] [Server thread/INFO]: [Not Secure] <Snjegovan> ne bas
+[00:19:37] [Server thread/INFO]: [Not Secure] <Snjegovan> mozda malo
+[00:20:12] [Server thread/INFO]: <xXxNerdSlayerxXx> odoh da pronadjem portal dok mi se hladi vecera
+[00:21:28] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=-26, y=53, z=-1021} BlockPos{x=-27, y=53, z=-1021}
+[00:21:28] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=-25, y=53, z=-1021} BlockPos{x=-27, y=53, z=-1021}
+[00:23:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2533ms or 50 ticks behind
+[00:25:08] [Server thread/INFO]: Snjegovan lost connection: Disconnected
+[00:25:08] [Server thread/INFO]: Snjegovan left the game
+[00:29:48] [Server thread/INFO]: <xXxNerdSlayerxXx> 1315 y -560
+[00:39:13] [Server thread/INFO]: xXxNerdSlayerxXx has made the advancement [Eye Spy]
+[00:39:55] [Server thread/INFO]: <xXxNerdSlayerxXx> 1333 y -560
+[00:51:28] [Server thread/INFO]: xXxNerdSlayerxXx lost connection: Disconnected
+[00:51:28] [Server thread/INFO]: xXxNerdSlayerxXx left the game
+[00:52:02] [Server thread/INFO]: Stopping the server
+[00:52:03] [Server thread/INFO]: Stopping server
+[00:52:03] [Server thread/INFO]: Saving players
+[00:52:03] [Server thread/INFO]: Saving worlds
+[00:52:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[drugari drugari blejacemo stalno]'/minecraft:overworld
+[00:52:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[drugari drugari blejacemo stalno]'/minecraft:the_end
+[00:52:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[drugari drugari blejacemo stalno]'/minecraft:the_nether
+[00:52:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:52:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:52:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:52:07] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

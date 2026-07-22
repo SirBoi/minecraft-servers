@@ -365,16 +365,21 @@
       "minecraft:skeleton": "2026-07-19 23:09:30 +0200",
       "minecraft:wither_skeleton": "2026-07-20 20:01:40 +0200",
       "minecraft:husk": "2026-07-21 20:45:14 +0200",
+      "minecraft:ghast": "2026-07-22 22:23:35 +0200",
+      "minecraft:hoglin": "2026-07-22 22:25:35 +0200",
       "minecraft:cave_spider": "2026-07-19 22:55:15 +0200",
       "minecraft:piglin": "2026-07-20 19:39:17 +0200",
       "minecraft:zombie_horse": "2026-07-21 14:17:36 +0200",
       "minecraft:enderman": "2026-07-19 23:14:26 +0200",
+      "minecraft:silverfish": "2026-07-22 21:06:18 +0200",
       "minecraft:magma_cube": "2026-07-20 19:42:46 +0200",
       "minecraft:spider": "2026-07-19 21:31:37 +0200",
+      "minecraft:piglin_brute": "2026-07-22 22:34:45 +0200",
       "minecraft:zombie": "2026-07-19 21:31:26 +0200",
       "minecraft:creeper": "2026-07-19 23:08:28 +0200",
       "minecraft:drowned": "2026-07-21 20:16:34 +0200",
-      "minecraft:wither": "2026-07-20 20:50:23 +0200"
+      "minecraft:wither": "2026-07-20 20:50:23 +0200",
+      "minecraft:zombie_villager": "2026-07-22 18:05:52 +0200"
     },
     "done": false
   },
@@ -864,7 +869,8 @@
       "cooked_cod": "2026-07-19 22:36:02 +0200",
       "cooked_beef": "2026-07-20 18:11:18 +0200",
       "baked_potato": "2026-07-21 15:44:03 +0200",
-      "pumpkin_pie": "2026-07-20 20:28:08 +0200"
+      "pumpkin_pie": "2026-07-20 20:28:08 +0200",
+      "golden_carrot": "2026-07-23 00:29:57 +0200"
     },
     "done": false
   },
@@ -2867,11 +2873,13 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:crimson_forest": "2026-07-22 22:25:22 +0200",
       "minecraft:nether_wastes": "2026-07-20 19:38:39 +0200",
+      "minecraft:soul_sand_valley": "2026-07-22 22:41:48 +0200",
       "minecraft:basalt_deltas": "2026-07-20 19:42:41 +0200",
       "minecraft:warped_forest": "2026-07-20 19:37:17 +0200"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/misc/bowl": {
     "criteria": {
@@ -3836,6 +3844,318 @@
   "mini_blocks:recipes/crafting_table": {
     "criteria": {
       "has_item": "2026-07-21 23:31:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2026-07-22 21:07:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2026-07-22 21:07:35 +0200"
+    },
+    "done": true
+  },
+  "mini_blocks:recipes/spruce_log": {
+    "criteria": {
+      "has_item": "2026-07-22 21:07:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2026-07-22 22:03:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-07-22 22:03:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-07-22 22:03:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_nautilus_armor_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-07-22 22:03:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-07-22 22:03:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-07-22 22:03:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-07-22 22:03:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2026-07-22 22:03:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_horse_armor_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-07-22 22:03:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-07-22 22:03:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-07-22 22:03:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_spear_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-07-22 22:03:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-07-22 22:03:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-07-22 22:03:54 +0200"
+    },
+    "done": true
+  },
+  "mini_blocks:recipes/smithing_table": {
+    "criteria": {
+      "has_item": "2026-07-22 22:07:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2026-07-22 22:23:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dried_ghast": {
+    "criteria": {
+      "has_ghast_tear": "2026-07-22 22:24:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2026-07-22 22:25:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2026-07-22 22:25:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2026-07-22 22:25:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2026-07-22 22:29:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_other": "2026-07-22 22:30:47 +0200"
+    },
+    "done": true
+  },
+  "mini_blocks:recipes/gilded_blackstone": {
+    "criteria": {
+      "has_item": "2026-07-22 22:30:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-07-22 22:31:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-07-22 22:31:03 +0200"
+    },
+    "done": true
+  },
+  "mini_blocks:recipes/polished_blackstone_bricks": {
+    "criteria": {
+      "has_item": "2026-07-22 22:31:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-07-22 22:31:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-07-22 22:31:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-07-22 22:31:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-07-22 22:31:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-07-22 22:31:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2026-07-22 22:34:07 +0200"
+    },
+    "done": true
+  },
+  "mini_blocks:recipes/bone_block": {
+    "criteria": {
+      "has_item": "2026-07-22 22:34:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2026-07-22 22:35:34 +0200"
+    },
+    "done": true
+  },
+  "mini_blocks:recipes/jukebox": {
+    "criteria": {
+      "has_item": "2026-07-22 22:59:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2026-07-22 23:26:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-07-23 00:40:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2026-07-23 00:41:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_stone_bricks": {
+    "criteria": {
+      "has_stone_bricks": "2026-07-23 00:41:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2026-07-23 00:41:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2026-07-23 00:41:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
+    "criteria": {
+      "has_tag": "2026-07-23 00:41:23 +0200"
+    },
+    "done": true
+  },
+  "mini_blocks:recipes/stone_bricks": {
+    "criteria": {
+      "has_item": "2026-07-23 00:41:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2026-07-23 00:41:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2026-07-23 00:41:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2026-07-23 00:41:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template": {
+    "criteria": {
+      "has_eye_armor_trim_smithing_template": "2026-07-23 00:40:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2026-07-23 00:41:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2026-07-23 00:39:13 +0200"
     },
     "done": true
   },
