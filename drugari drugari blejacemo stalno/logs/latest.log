@@ -1,34 +1,36 @@
-[11:44:47] [ServerMain/WARN]: resource-pack-id missing, using default of 7488ef7a-7ec7-30d1-be4d-a2bd198c472b
-[11:44:47] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[11:44:48] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:entities/shulker@minecraft:loot_table}.pools[2].entries[0]: Missing element double_shulker_shells:entities/shulker of type minecraft:loot_table
-[11:44:48] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:entities/bat@minecraft:loot_table}.pools[2].entries[0]: Missing element bat_membranes:entities/bat of type minecraft:loot_table
-[11:44:48] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:entities/husk@minecraft:loot_table}.pools[2].entries[0]: Missing element husks_drop_sand:entities/husk of type minecraft:loot_table
-[11:44:48] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:entities/player@minecraft:loot_table}.pools[1].entries[0]: Missing element graves:entities/player of type minecraft:loot_table
-[11:44:48] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:entities/villager@minecraft:loot_table}.pools[2].entries[0]: Missing element villager_death:entities/villager of type minecraft:loot_table
-[11:44:49] [ServerMain/INFO]: Loaded 1910 recipes
-[11:44:49] [ServerMain/INFO]: Loaded 1925 advancements
-[11:44:49] [Server thread/INFO]: Starting minecraft server version 26.2
-[11:44:49] [Server thread/INFO]: Loading properties
-[11:44:49] [Server thread/INFO]: Default game type: SURVIVAL
-[11:44:49] [Server thread/INFO]: Generating keypair
-[11:44:49] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:44:49] [Server thread/INFO]: Preparing level "world"
-[11:44:50] [Server thread/INFO]: Loading 0 persistent chunks...
-[11:44:50] [Server thread/INFO]: Preparing spawn area: 100%
-[11:44:50] [Server thread/INFO]: Time elapsed: 25 ms
-[11:44:50] [Server thread/INFO]: Done (0.497s)! For help, type "help"
-[11:44:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[drugari drugari blejacemo stalno]'/minecraft:overworld
-[11:44:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[drugari drugari blejacemo stalno]'/minecraft:the_end
-[11:44:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[drugari drugari blejacemo stalno]'/minecraft:the_nether
-[11:44:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11:44:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11:44:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:44:50] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[11:45:50] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[11:46:03] [User Authenticator #1/INFO]: UUID of player Snjegovan is dd1ac9e9-1bc5-4f25-acc8-fe0a884516c8
-[11:46:05] [Server thread/INFO]: Snjegovan[/10.73.13.5:51169] logged in with entity id 92 at (93.46130898758159, 64.0, -994.8002877477356)
-[11:46:05] [Server thread/INFO]: Snjegovan joined the game
-[11:46:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2079ms or 41 ticks behind
-[11:46:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3770ms or 75 ticks behind
-[12:06:32] [Server thread/INFO]: Snjegovan lost connection: Disconnected
-[12:06:32] [Server thread/INFO]: Snjegovan left the game
+[15:44:42] [ServerMain/WARN]: resource-pack-id missing, using default of 7488ef7a-7ec7-30d1-be4d-a2bd198c472b
+[15:44:42] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[15:44:45] [Worker-Main-4/WARN]: Found loot table element validation problem in {minecraft:entities/shulker@minecraft:loot_table}.pools[2].entries[0]: Missing element double_shulker_shells:entities/shulker of type minecraft:loot_table
+[15:44:45] [Worker-Main-4/WARN]: Found loot table element validation problem in {minecraft:entities/bat@minecraft:loot_table}.pools[2].entries[0]: Missing element bat_membranes:entities/bat of type minecraft:loot_table
+[15:44:45] [Worker-Main-4/WARN]: Found loot table element validation problem in {minecraft:entities/husk@minecraft:loot_table}.pools[2].entries[0]: Missing element husks_drop_sand:entities/husk of type minecraft:loot_table
+[15:44:45] [Worker-Main-4/WARN]: Found loot table element validation problem in {minecraft:entities/player@minecraft:loot_table}.pools[1].entries[0]: Missing element graves:entities/player of type minecraft:loot_table
+[15:44:45] [Worker-Main-4/WARN]: Found loot table element validation problem in {minecraft:entities/villager@minecraft:loot_table}.pools[2].entries[0]: Missing element villager_death:entities/villager of type minecraft:loot_table
+[15:44:47] [ServerMain/INFO]: Loaded 1910 recipes
+[15:44:47] [ServerMain/INFO]: Loaded 1925 advancements
+[15:44:47] [Server thread/INFO]: Starting minecraft server version 26.2
+[15:44:47] [Server thread/INFO]: Loading properties
+[15:44:47] [Server thread/INFO]: Default game type: SURVIVAL
+[15:44:47] [Server thread/INFO]: Generating keypair
+[15:44:47] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:44:48] [Server thread/INFO]: Preparing level "world"
+[15:44:48] [Server thread/INFO]: Loading 0 persistent chunks...
+[15:44:48] [Server thread/INFO]: Preparing spawn area: 100%
+[15:44:48] [Server thread/INFO]: Time elapsed: 67 ms
+[15:44:48] [Server thread/INFO]: Done (0.618s)! For help, type "help"
+[15:44:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[drugari drugari blejacemo stalno]'/minecraft:overworld
+[15:44:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[drugari drugari blejacemo stalno]'/minecraft:the_end
+[15:44:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[drugari drugari blejacemo stalno]'/minecraft:the_nether
+[15:44:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:44:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:44:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:44:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:45:31] [User Authenticator #1/INFO]: UUID of player Snjegovan is dd1ac9e9-1bc5-4f25-acc8-fe0a884516c8
+[15:45:33] [Server thread/INFO]: Snjegovan[/10.73.13.5:61163] logged in with entity id 102 at (97.7343116284517, 64.0, -991.8619679127289)
+[15:45:33] [Server thread/INFO]: Snjegovan joined the game
+[15:45:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2100ms or 42 ticks behind
+[15:46:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7616ms or 152 ticks behind
+[16:56:25] [Server thread/INFO]: Snjegovan lost connection: Disconnected
+[16:56:25] [Server thread/INFO]: Snjegovan left the game
+[16:56:41] [Server thread/INFO]: Stopping server
+[16:56:41] [Server thread/INFO]: Saving players
+[16:56:41] [Server thread/INFO]: Saving worlds
