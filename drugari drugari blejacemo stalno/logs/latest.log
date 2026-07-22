@@ -1,36 +1,43 @@
-[00:05:06] [Server thread/INFO]: <xXxNerdSlayerxXx> jupi imam prvi stek
-[00:05:30] [Server thread/INFO]: [Not Secure] <Snjegovan> jeeej
-[00:05:58] [Server thread/INFO]: <xXxNerdSlayerxXx> jesi li ti sakupio ista
-[00:06:04] [Server thread/INFO]: [Not Secure] <Snjegovan> nista lol
-[00:06:11] [Server thread/INFO]: [Not Secure] <Snjegovan> nema paukova bre
-[00:06:57] [Server thread/INFO]: [Not Secure] <Snjegovan> evo imam 1
-[00:07:10] [Server thread/INFO]: [Not Secure] <Snjegovan> 2
-[00:10:49] [Server thread/INFO]: <xXxNerdSlayerxXx> imas li zastavu
-[00:10:55] [Server thread/INFO]: [Not Secure] <Snjegovan> javicu ti ja
-[00:11:19] [Server thread/INFO]: Named entity Zombie['Zombie'/151, l='ServerLevel[drugari drugari blejacemo stalno]', x=103.10, y=63.68, z=-983.05] died: Zombie suffocated in a wall
-[00:11:27] [Server thread/INFO]: Villager Villager['Librarian'/18479, l='ServerLevel[drugari drugari blejacemo stalno]', x=103.70, y=64.00, z=-982.04] died, message: 'Librarian suffocated in a wall'
-[00:12:37] [Server thread/INFO]: <xXxNerdSlayerxXx> odoh jesti
-[00:12:44] [Server thread/INFO]: <xXxNerdSlayerxXx> uzmi to
-[00:13:14] [Server thread/INFO]: <xXxNerdSlayerxXx> tamo iza moje kuce imas armadilo farmu
-[00:13:27] [Server thread/INFO]: <xXxNerdSlayerxXx> odi jednom na 10ak minuta i nahrani ih sve
-[00:17:18] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=110, y=65, z=-1010} BlockPos{x=111, y=64, z=-1012}
-[00:17:18] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=110, y=65, z=-1010} BlockPos{x=111, y=64, z=-1012}
-[00:18:42] [Server thread/INFO]: Snjegovan has made the advancement [The Parrots and the Bats]
-[00:22:11] [Server thread/INFO]: <xXxNerdSlayerxXx> ako se budes izlogovao vrati oci u moj kovceg
-[00:42:13] [Server thread/INFO]: [Not Secure] <Snjegovan> oci i armadilo scute sam stavio u tvoj cest direktno iza tebe u kuci
-[00:42:16] [Server thread/INFO]: [Not Secure] <Snjegovan> odoh
-[00:46:09] [Server thread/INFO]: Snjegovan lost connection: Disconnected
-[00:46:09] [Server thread/INFO]: Snjegovan left the game
-[01:00:12] [Server thread/INFO]: xXxNerdSlayerxXx lost connection: Disconnected
-[01:00:12] [Server thread/INFO]: xXxNerdSlayerxXx left the game
-[01:00:47] [Server thread/INFO]: Stopping the server
-[01:00:47] [Server thread/INFO]: Stopping server
-[01:00:47] [Server thread/INFO]: Saving players
-[01:00:47] [Server thread/INFO]: Saving worlds
-[01:00:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[drugari drugari blejacemo stalno]'/minecraft:overworld
-[01:00:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[drugari drugari blejacemo stalno]'/minecraft:the_nether
-[01:00:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[drugari drugari blejacemo stalno]'/minecraft:the_end
-[01:00:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:00:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:00:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:00:47] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08:20:50] [ServerMain/WARN]: resource-pack-id missing, using default of 7488ef7a-7ec7-30d1-be4d-a2bd198c472b
+[08:20:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[08:20:51] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:entities/shulker@minecraft:loot_table}.pools[2].entries[0]: Missing element double_shulker_shells:entities/shulker of type minecraft:loot_table
+[08:20:51] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:entities/bat@minecraft:loot_table}.pools[2].entries[0]: Missing element bat_membranes:entities/bat of type minecraft:loot_table
+[08:20:51] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:entities/husk@minecraft:loot_table}.pools[2].entries[0]: Missing element husks_drop_sand:entities/husk of type minecraft:loot_table
+[08:20:51] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:entities/player@minecraft:loot_table}.pools[1].entries[0]: Missing element graves:entities/player of type minecraft:loot_table
+[08:20:51] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:entities/villager@minecraft:loot_table}.pools[2].entries[0]: Missing element villager_death:entities/villager of type minecraft:loot_table
+[08:20:51] [ServerMain/INFO]: Loaded 1910 recipes
+[08:20:51] [ServerMain/INFO]: Loaded 1925 advancements
+[08:20:52] [Server thread/INFO]: Starting minecraft server version 26.2
+[08:20:52] [Server thread/INFO]: Loading properties
+[08:20:52] [Server thread/INFO]: Default game type: SURVIVAL
+[08:20:52] [Server thread/INFO]: Generating keypair
+[08:20:52] [Server thread/INFO]: Starting Minecraft server on *:25565
+[08:20:52] [Server thread/INFO]: Preparing level "world"
+[08:20:52] [Server thread/INFO]: Loading 0 persistent chunks...
+[08:20:52] [Server thread/INFO]: Preparing spawn area: 100%
+[08:20:52] [Server thread/INFO]: Time elapsed: 27 ms
+[08:20:52] [Server thread/INFO]: Done (0.391s)! For help, type "help"
+[08:20:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[drugari drugari blejacemo stalno]'/minecraft:overworld
+[08:20:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[drugari drugari blejacemo stalno]'/minecraft:the_nether
+[08:20:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[drugari drugari blejacemo stalno]'/minecraft:the_end
+[08:20:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08:20:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08:20:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08:20:52] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08:21:15] [User Authenticator #1/INFO]: UUID of player Snjegovan is dd1ac9e9-1bc5-4f25-acc8-fe0a884516c8
+[08:21:16] [Server thread/INFO]: Snjegovan[/10.73.13.5:50144] logged in with entity id 32 at (96.38231661608863, 63.0, -976.6896267225378)
+[08:21:16] [Server thread/INFO]: Snjegovan joined the game
+[08:21:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2038ms or 40 ticks behind
+[08:26:50] [Server thread/INFO]: Villager Villager['Villager'/26, l='ServerLevel[drugari drugari blejacemo stalno]', x=101.26, y=64.19, z=-1007.10] died, message: 'Villager was blown up by Creeper'
+[08:40:27] [Server thread/INFO]: Villager Villager['Librarian'/4, l='ServerLevel[drugari drugari blejacemo stalno]', x=-1.63, y=62.71, z=-1016.31] died, message: 'Librarian was slain by Snjegovan'
+[10:02:01] [Server thread/INFO]: Villager Villager['Fletcher'/36262, l='ServerLevel[drugari drugari blejacemo stalno]', x=85.50, y=63.00, z=-1003.70] died, message: 'Fletcher was slain by Zombie'
+[10:02:11] [Server thread/INFO]: Villager Villager['Farmer'/36260, l='ServerLevel[drugari drugari blejacemo stalno]', x=87.50, y=63.00, z=-1003.30] died, message: 'Farmer was slain by Zombie'
+[10:18:02] [Server thread/INFO]: Villager Villager['Librarian'/36031, l='ServerLevel[drugari drugari blejacemo stalno]', x=103.70, y=63.00, z=-985.50] died, message: 'Librarian was slain by Zombie'
+[10:18:19] [Server thread/INFO]: Villager Villager['Librarian'/36027, l='ServerLevel[drugari drugari blejacemo stalno]', x=103.70, y=63.00, z=-983.50] died, message: 'Librarian was slain by Zombie'
+[10:18:29] [Server thread/INFO]: Villager Villager['Librarian'/36026, l='ServerLevel[drugari drugari blejacemo stalno]', x=103.70, y=63.00, z=-981.51] died, message: 'Librarian was slain by Zombie'
+[10:23:50] [Server thread/INFO]: Villager Villager['Librarian'/35821, l='ServerLevel[drugari drugari blejacemo stalno]', x=103.70, y=63.00, z=-993.50] died, message: 'Librarian was slain by Zombie'
+[10:24:00] [Server thread/INFO]: Villager Villager['Librarian'/36030, l='ServerLevel[drugari drugari blejacemo stalno]', x=103.70, y=63.00, z=-991.50] died, message: 'Librarian was slain by Zombie'
+[10:24:10] [Server thread/INFO]: Villager Villager['Librarian'/36029, l='ServerLevel[drugari drugari blejacemo stalno]', x=103.70, y=63.00, z=-989.50] died, message: 'Librarian was slain by Zombie'
+[10:24:24] [Server thread/INFO]: Villager Villager['Librarian'/36028, l='ServerLevel[drugari drugari blejacemo stalno]', x=103.70, y=63.00, z=-987.50] died, message: 'Librarian was slain by Zombie'
+[10:40:13] [Server thread/INFO]: Snjegovan lost connection: Disconnected
+[10:40:13] [Server thread/INFO]: Snjegovan left the game
