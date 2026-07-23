@@ -1,0 +1,332 @@
+---- Minecraft Crash Report ----
+// I let you down. Sorry :(
+
+Time: 2026-07-23 17:01:57
+Description: Watching Server
+
+java.lang.Error: Watchdog (Watching Server)
+	at net.minecraft.world.entity.raid.Raids.lambda$static$1(Raids.java:34)
+	at net.minecraft.world.entity.raid.Raids$$Lambda/0x0000000023f9a270.apply(Unknown Source)
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance.lambda$ap3$6(RecordCodecBuilder.java:286)
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$$Lambda/0x00000000231a5f58.apply(Unknown Source)
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.encode(RecordCodecBuilder.java:112)
+	at com.mojang.serialization.MapCodec$MapCodecCodec.encode(MapCodec.java:164)
+	at com.mojang.serialization.Encoder.encodeStart(Encoder.java:14)
+	at net.minecraft.world.level.storage.SavedDataStorage.encodeUnchecked(SavedDataStorage.java:198)
+	at net.minecraft.world.level.storage.SavedDataStorage.lambda$collectDirtyTagsToSave$1(SavedDataStorage.java:187)
+	at net.minecraft.world.level.storage.SavedDataStorage$$Lambda/0x0000000023fc3998.accept(Unknown Source)
+	at java.base@25.0.3/java.util.Optional.ifPresent(Optional.java:178)
+	at net.minecraft.world.level.storage.SavedDataStorage.lambda$collectDirtyTagsToSave$0(SavedDataStorage.java:186)
+	at net.minecraft.world.level.storage.SavedDataStorage$$Lambda/0x0000000023fc3500.accept(Unknown Source)
+	at java.base@25.0.3/java.util.HashMap.forEach(HashMap.java:1430)
+	at net.minecraft.world.level.storage.SavedDataStorage.collectDirtyTagsToSave(SavedDataStorage.java:185)
+	at net.minecraft.world.level.storage.SavedDataStorage.scheduleSave(SavedDataStorage.java:148)
+	at net.minecraft.server.level.ServerLevel.saveLevelData(ServerLevel.java:931)
+	at net.minecraft.server.level.ServerLevel.save(ServerLevel.java:911)
+	at net.minecraft.server.MinecraftServer.saveAllChunks(MinecraftServer.java:625)
+	at net.minecraft.server.dedicated.DedicatedServer.saveAllChunks(DedicatedServer.java:287)
+	at net.minecraft.server.MinecraftServer.saveEverything(MinecraftServer.java:652)
+	at net.minecraft.server.MinecraftServer.autoSave(MinecraftServer.java:1044)
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:990)
+	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:278)
+	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1034)
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:773)
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:320)
+	at net.minecraft.server.MinecraftServer$$Lambda/0x0000000023e4ada0.run(Unknown Source)
+	at java.base@25.0.3/java.lang.Thread.runWith(Thread.java:1487)
+	at java.base@25.0.3/java.lang.Thread.run(Thread.java:1474)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server Watchdog
+Stacktrace:
+	at net.minecraft.world.entity.raid.Raids.lambda$static$1(Raids.java:34)
+	at net.minecraft.world.entity.raid.Raids$$Lambda/0x0000000023f9a270.apply(Unknown Source)
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance.lambda$ap3$6(RecordCodecBuilder.java:286)
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$$Lambda/0x00000000231a5f58.apply(Unknown Source)
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.encode(RecordCodecBuilder.java:112)
+	at com.mojang.serialization.MapCodec$MapCodecCodec.encode(MapCodec.java:164)
+	at com.mojang.serialization.Encoder.encodeStart(Encoder.java:14)
+	at net.minecraft.world.level.storage.SavedDataStorage.encodeUnchecked(SavedDataStorage.java:198)
+	at net.minecraft.world.level.storage.SavedDataStorage.lambda$collectDirtyTagsToSave$1(SavedDataStorage.java:187)
+	at net.minecraft.world.level.storage.SavedDataStorage$$Lambda/0x0000000023fc3998.accept(Unknown Source)
+	at java.base@25.0.3/java.util.Optional.ifPresent(Optional.java:178)
+	at net.minecraft.world.level.storage.SavedDataStorage.lambda$collectDirtyTagsToSave$0(SavedDataStorage.java:186)
+	at net.minecraft.world.level.storage.SavedDataStorage$$Lambda/0x0000000023fc3500.accept(Unknown Source)
+	at java.base@25.0.3/java.util.HashMap.forEach(HashMap.java:1430)
+	at net.minecraft.world.level.storage.SavedDataStorage.collectDirtyTagsToSave(SavedDataStorage.java:185)
+	at net.minecraft.world.level.storage.SavedDataStorage.scheduleSave(SavedDataStorage.java:148)
+	at net.minecraft.server.level.ServerLevel.saveLevelData(ServerLevel.java:931)
+	at net.minecraft.server.level.ServerLevel.save(ServerLevel.java:911)
+	at net.minecraft.server.MinecraftServer.saveAllChunks(MinecraftServer.java:625)
+	at net.minecraft.server.dedicated.DedicatedServer.saveAllChunks(DedicatedServer.java:287)
+	at net.minecraft.server.MinecraftServer.saveEverything(MinecraftServer.java:652)
+	at net.minecraft.server.MinecraftServer.autoSave(MinecraftServer.java:1044)
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:990)
+	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:278)
+	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1034)
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:773)
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:320)
+
+-- Thread Dump --
+Details:
+	Threads: 
+"DestroyJavaVM" prio=5 Id=37 RUNNABLE
+
+
+"Server thread" prio=8 Id=75 RUNNABLE
+	at net.minecraft.world.entity.raid.Raids.lambda$static$1(Raids.java:34)
+	at net.minecraft.world.entity.raid.Raids$$Lambda/0x0000000023f9a270.apply(Unknown Source)
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance.lambda$ap3$6(RecordCodecBuilder.java:286)
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$$Lambda/0x00000000231a5f58.apply(Unknown Source)
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.encode(RecordCodecBuilder.java:112)
+	at com.mojang.serialization.MapCodec$MapCodecCodec.encode(MapCodec.java:164)
+	at com.mojang.serialization.Encoder.encodeStart(Encoder.java:14)
+	at net.minecraft.world.level.storage.SavedDataStorage.encodeUnchecked(SavedDataStorage.java:198)
+	...
+
+
+"Attach Listener" daemon prio=5 Id=18 RUNNABLE
+
+
+"Netty NIO IO #0" daemon prio=5 Id=78 RUNNABLE (in native)
+	at java.base@25.0.3/sun.nio.ch.WEPoll.wait(Native Method)
+	at java.base@25.0.3/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:108)
+	at java.base@25.0.3/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+	-  locked sun.nio.ch.Util$2@12a720fc
+	-  locked sun.nio.ch.WEPollSelectorImpl@df661c2
+	at java.base@25.0.3/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:142)
+	at io.netty.channel.nio.NioIoHandler.select(NioIoHandler.java:668)
+	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:434)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	...
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@28c4338
+
+
+"Netty NIO IO #1" daemon prio=5 Id=83 RUNNABLE (in native)
+	at java.base@25.0.3/sun.nio.ch.WEPoll.wait(Native Method)
+	at java.base@25.0.3/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:108)
+	at java.base@25.0.3/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+	-  locked sun.nio.ch.Util$2@2717139a
+	-  locked sun.nio.ch.WEPollSelectorImpl@c1c7744
+	at java.base@25.0.3/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:142)
+	at io.netty.channel.nio.NioIoHandler.select(NioIoHandler.java:668)
+	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:434)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	...
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@32daef74
+
+
+"Netty NIO IO #2" daemon prio=5 Id=84 RUNNABLE (in native)
+	at java.base@25.0.3/sun.nio.ch.WEPoll.wait(Native Method)
+	at java.base@25.0.3/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:108)
+	at java.base@25.0.3/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+	-  locked sun.nio.ch.Util$2@522fef94
+	-  locked sun.nio.ch.WEPollSelectorImpl@4d3bbd88
+	at java.base@25.0.3/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:142)
+	at io.netty.channel.nio.NioIoHandler.select(NioIoHandler.java:668)
+	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:434)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	...
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@22f2453c
+
+
+"Netty NIO IO #3" daemon prio=5 Id=85 RUNNABLE (in native)
+	at java.base@25.0.3/sun.nio.ch.WEPoll.wait(Native Method)
+	at java.base@25.0.3/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:108)
+	at java.base@25.0.3/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+	-  locked sun.nio.ch.Util$2@4736af59
+	-  locked sun.nio.ch.WEPollSelectorImpl@6ac8bb64
+	at java.base@25.0.3/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:142)
+	at io.netty.channel.nio.NioIoHandler.select(NioIoHandler.java:668)
+	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:434)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	...
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@7a8f8c48
+
+
+"Netty NIO IO #4" daemon prio=5 Id=89 RUNNABLE (in native)
+	at java.base@25.0.3/sun.nio.ch.WEPoll.wait(Native Method)
+	at java.base@25.0.3/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:108)
+	at java.base@25.0.3/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+	-  locked sun.nio.ch.Util$2@4ae4fd80
+	-  locked sun.nio.ch.WEPollSelectorImpl@385acfe2
+	at java.base@25.0.3/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:142)
+	at io.netty.channel.nio.NioIoHandler.select(NioIoHandler.java:668)
+	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:434)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	...
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@17e64016
+
+
+"Notification Thread" daemon prio=9 Id=33 RUNNABLE
+
+
+"Reference Handler" daemon prio=10 Id=15 RUNNABLE
+	at java.base@25.0.3/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+	at java.base@25.0.3/java.lang.ref.Reference.processPendingReferences(Reference.java:246)
+	at java.base@25.0.3/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:208)
+
+
+"Server Watchdog" daemon prio=8 Id=79 RUNNABLE
+	at java.management@25.0.3/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@25.0.3/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:505)
+	at java.management@25.0.3/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:493)
+	at net.minecraft.util.Util.dumpThreadInfo(Util.java:495)
+	at net.minecraft.server.dedicated.ServerWatchdog.createWatchdogCrashReport(ServerWatchdog.java:79)
+	at net.minecraft.server.dedicated.ServerWatchdog.run(ServerWatchdog.java:52)
+	at java.base@25.0.3/java.lang.Thread.runWith(Thread.java:1487)
+	at java.base@25.0.3/java.lang.Thread.run(Thread.java:1474)
+
+
+"Server console handler" daemon prio=8 Id=77 RUNNABLE
+	at java.base@25.0.3/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@25.0.3/java.io.FileInputStream.read(FileInputStream.java:281)
+	at java.base@25.0.3/java.lang.System$In.read(System.java:1872)
+	at java.base@25.0.3/java.io.BufferedInputStream.read1(BufferedInputStream.java:328)
+	at java.base@25.0.3/java.io.BufferedInputStream.read(BufferedInputStream.java:388)
+	-  locked java.io.BufferedInputStream@3265a577
+	at java.base@25.0.3/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:279)
+	at java.base@25.0.3/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:322)
+	at java.base@25.0.3/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:186)
+	-  locked java.io.InputStreamReader@558e061d
+	...
+
+
+"Signal Dispatcher" daemon prio=9 Id=17 RUNNABLE
+
+
+"Finalizer" daemon prio=8 Id=16 WAITING on java.lang.ref.ReferenceQueue$Lock@94f587
+	at java.base@25.0.3/java.lang.Object.wait0(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@94f587
+	at java.base@25.0.3/java.lang.Object.wait(Object.java:389)
+	at java.base@25.0.3/java.lang.Object.wait(Object.java:351)
+	at java.base@25.0.3/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:137)
+	at java.base@25.0.3/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:215)
+	at java.base@25.0.3/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:165)
+
+
+"Common-Cleaner" daemon prio=8 Id=34 TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@1a453a5b
+	at java.base@25.0.3/java.lang.Object.wait0(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@1a453a5b
+	at java.base@25.0.3/java.lang.Object.wait(Object.java:389)
+	at java.base@25.0.3/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:123)
+	at java.base@25.0.3/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:201)
+	at java.base@25.0.3/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:146)
+	at java.base@25.0.3/java.lang.Thread.runWith(Thread.java:1487)
+	at java.base@25.0.3/java.lang.Thread.run(Thread.java:1474)
+	at java.base@25.0.3/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:148)
+
+
+"JNA Cleaner" daemon prio=5 Id=41 TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@51c0bb6c
+	at java.base@25.0.3/java.lang.Object.wait0(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@51c0bb6c
+	at java.base@25.0.3/java.lang.Object.wait(Object.java:389)
+	at java.base@25.0.3/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:123)
+	at java.base@25.0.3/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:201)
+	at com.sun.jna.internal.Cleaner$CleanerThread.run(Cleaner.java:154)
+
+
+"Timer hack thread" daemon prio=5 Id=56 TIMED_WAITING
+	at java.base@25.0.3/java.lang.Thread.sleepNanos0(Native Method)
+	at java.base@25.0.3/java.lang.Thread.sleepNanos(Thread.java:509)
+	at java.base@25.0.3/java.lang.Thread.sleep(Thread.java:540)
+	at net.minecraft.util.Util$9.run(Util.java:1047)
+
+
+"Yggdrasil Key Fetcher" daemon prio=5 Id=57 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@157a5292
+	at java.base@25.0.3/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@157a5292
+	at java.base@25.0.3/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:271)
+	at java.base@25.0.3/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1803)
+	at java.base@25.0.3/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1166)
+	at java.base@25.0.3/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:883)
+	at java.base@25.0.3/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1016)
+	at java.base@25.0.3/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+	at java.base@25.0.3/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	...
+
+
+Stacktrace:
+	at net.minecraft.server.dedicated.ServerWatchdog.createWatchdogCrashReport(ServerWatchdog.java:95)
+	at net.minecraft.server.dedicated.ServerWatchdog.run(ServerWatchdog.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+-- Performance stats --
+Details:
+	Random tick rate: 3
+	Level stats: minecraft:overworld: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+minecraft:the_end: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+minecraft:the_nether: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0
+
+-- System Details --
+Details:
+	Minecraft Version: 26.2
+	Minecraft Version ID: 26.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 25.0.3, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 2992208552 bytes (2853 MiB) / 4294967296 bytes (4096 MiB) up to 4294967296 bytes (4096 MiB)
+	Memory (heap): init: 4096MiB, used: 1241MiB, committed: 4096MiB, max: 4096MiB
+	Memory (non-head): init: 007MiB, used: 132MiB, committed: 135MiB, max: 000MiB
+	CPUs: 16
+	Processor Vendor: GenuineIntel
+	Processor Name: 12th Gen Intel(R) Core(TM) i5-12600KF
+	Identifier: Intel64 Family 6 Model 151 Stepping 2
+	Microarchitecture: Alder Lake
+	Frequency (GHz): 3.69
+	Number of physical packages: 1
+	Number of physical CPUs: 10
+	Number of logical CPUs: 16
+	Graphics card #0 name: AMD Radeon(TM) Graphics
+	Graphics card #0 vendor: Advanced Micro Devices, Inc.
+	Graphics card #0 VRAM (MiB): 8176.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 32.0.21030.2001
+	Memory slot #0 capacity (MiB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 2.67
+	Memory slot #0 type: DDR4
+	Virtual memory max (MiB): 36705.67
+	Virtual memory used (MiB): 17018.63
+	Swap memory total (MiB): 20480.00
+	Swap memory used (MiB): 328.48
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 1167.26, total: 471547.00
+	Space in storage for workdir (MiB): available: 1626429.63, total: 1907712.00
+	Operating System Version: Microsoft Windows 10 build 19045
+	Process Elevated: false
+	Process Loads: Uptime: 303s, user: 37s (12.21%), kernel: 2s (0.73%), total: 39s (12.94%)
+	Process Virtual Size (MiB): 2037.23
+	Process Resident Size (MiB): 1516.14
+	JVM Flags: 2 total; -Xmx4G -Xms4G
+	Debug Flags: 0 total; 
+	Server Running: true
+	Player Count: 0 / 20; []
+	Active Data Packs: vanilla, file/VanillaTweaks_c313591_MC26.2.zip, file/afk display v1.1.17 (MC 26.2).zip, file/ender chest always drops v1.0.9 (MC 26.2).zip, file/fast leaf decay v2.0.22 (MC 26.2).zip, file/mini blocks v1.1.7 (MC 26.2).zip, file/more mob heads v2.20.0 (MC 26.2).zip, file/player head drops v1.1.17 (MC 26.2).zip, file/silence mobs v1.2.11 (MC 26.2).zip, file/storm channeling v1.0.9 (MC 26.2).zip, file/wandering trades v1.7.16 (MC 26.2).zip
+	Available Data Packs: file/VanillaTweaks_c313591_MC26.2.zip, file/afk display v1.1.17 (MC 26.2).zip, file/ender chest always drops v1.0.9 (MC 26.2).zip, file/fast leaf decay v2.0.22 (MC 26.2).zip, file/mini blocks v1.1.7 (MC 26.2).zip, file/more mob heads v2.20.0 (MC 26.2).zip, file/player head drops v1.1.17 (MC 26.2).zip, file/silence mobs v1.2.11 (MC 26.2).zip, file/storm channeling v1.0.9 (MC 26.2).zip, file/wandering trades v1.7.16 (MC 26.2).zip, minecart_improvements, redstone_experiments, trade_rebalance, vanilla
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	World Seed: 1316943365
+	Suppressed Exceptions: ~~NONE~~
+	Is Modded: Probably not. Server jar signature and brand is untouched
+	Type: Dedicated Server
